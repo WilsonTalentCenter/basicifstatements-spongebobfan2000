@@ -7,7 +7,7 @@ public class Main {
 		//create a scanner object reading from System.in
 		Scanner sc = new Scanner(System.in);
 		//print out:  enter a whole number
-		System.out.println("Enter a whole number");
+		System.out.println("Enter a whole number:");
 		//get a line of input convert and save the input into an integer variable (you can assume the user enters a  valid whole number)
 		int num = sc.nextInt();
 		//write an if statement that prints "hello world" if the input was less than 4
